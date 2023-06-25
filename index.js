@@ -11,7 +11,7 @@ app.use(express.json())
 
 // router 
 const router  = require("./Routes")
-app.use('/event' , router);
+app.use('/api/v3/app/event' , router);
 
 const PORT  = 8000;
 app.listen(PORT,()=> (console.log('server started')));
